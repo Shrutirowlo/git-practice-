@@ -18,6 +18,12 @@ if __name__ == "__main__":
     add_task("Learn Git and GitHub")
     add_task("Create my first Pull Request")
 
+
     print(list_tasks())
     print("Tasks have been added and listed successfully.")
+<<<<<<< HEAD
     print("test branch")
+=======
+    print("helloooo")
+    print("test branch 2")
+>>>>>>> test
