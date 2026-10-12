@@ -27,3 +27,4 @@ if __name__ == "__main__":
     print("helloooo")
     print("test branch 2")
 >>>>>>> test
+    print("test branch 2")
