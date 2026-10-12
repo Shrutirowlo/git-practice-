@@ -10,7 +10,11 @@ def add_task(title):
     tasks.append(task)
     return task
 
+def list_tasks():
+    return tasks
 
 if __name__ == "__main__":
-    print(add_task("Learn Git and GitHub"))
-    print(tasks)
+    add_task("Learn Git and GitHub")
+    add_task("Create my first Pull Request")
+
+    print(list_tasks())
