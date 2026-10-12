@@ -11,6 +11,7 @@ def add_task(title):
     return task
 
 def list_tasks():
+    """Return all tasks currently stored in memory."""
     return tasks
 
 if __name__ == "__main__":
